@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+#main_head {
+    background-color: rgb(228, 63, 63);
+}
+
+.act ~ a{
+    color: red;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5vw;
+    background-color: #034561;
+    padding-top: 5%;
+}
+.Login-form{
+    width: 90%;
+    height: 90%;
+    background-color: #93E4C1;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 15px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: 1px solid #034561;
+
+}
+.username,.password{
+    padding: 10px;
+}
+.signup-btn{
+    width: 150px;
+    height: 28px;
+    margin-top: 15px;
+    cursor: pointer;
+}
